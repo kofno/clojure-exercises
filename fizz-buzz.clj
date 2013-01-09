@@ -1,5 +1,5 @@
 (defn fizz-buzz
-  "Infininate fizz buzz. Take what you need"
+  "Infinite fizz buzz. Take what you need"
   []
   (let [threes (cycle ["" "" "Fizz"])
         fives  (cycle ["" "" "" "" "Buzz"])
