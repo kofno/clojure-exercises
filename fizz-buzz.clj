@@ -8,3 +8,6 @@
                    (str n)
                    (str s1 s2)))]
     (map buzzer threes fives (iterate inc 1))))
+
+;; (doseq [x (take 15 (fizz-buzz))]
+;;    (prn x))
